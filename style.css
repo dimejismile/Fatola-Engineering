@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #1a1a1d;
+	color: #fff;
+	font-family: sans-serif;
+}
+.header {
+	background: linear-gradient(45deg, rgba(26, 26, 26, 0.5), rgba(26, 26, 26, 0.5)), url(./images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 700px;
+	box-shadow: 2px 2px 13px 5px #080808;
+}
+.header .nav {
+  margin-top: 30px;
+  display: inline-block;
+  background: transparent;
+  color: white;
+  top: 0;
+  height: 60px;
+  width: 100vw;
+  z-index: 10;
+}
+.nav .logo a{
+  float: left;
+  text-decoration: none;
+  margin-left: 100px;
+  letter-spacing: 2;
+  color: #fff;
+  font-size: 28px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.nav .logo a span {
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: normal;
+}
+.nav .navbar ul{
+  float: right;
+  list-style-type: none;
+  margin-right: 100px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0px 5px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  padding: 10px 20px;
+  transition: all 1s; 
+}
+.navbar ul li .active a{
+ background: #fff;
+  color: #000033;
+}
+.navbar ul li a:hover {
+  background: #fff;
+  color: #000033;
+}
+.header .header-text {
+	margin-top: 150px;
+	margin-left: 100px;
+}
+.header .header-text h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 2em;
+	color: #dec7b6;
+}
+.header-text button {
+	border: none;
+	outline: none;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background: #eb1d1f;
+  transition: 1s all;
+  cursor: pointer;
+  box-shadow: 2px 2px 13px 5px #080808;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  transition: 1s all;
+}
+button:hover {
+  background: #990000;
+}
+.main-section .content-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.content-wrapper .content {
+	position: relative;
+	width: 300px;
+	overflow: hidden;
+	padding: 15px;
+	margin-top: 50px;
+	text-align: center;
+}
+.content-image {
+	width: 400px;
+	opacity: 0.7;
+	background-size: contain;
+}
+.content h3 {
+	position: absolute;
+	bottom: 40px;
+	padding: 10px;
+	text-align: center;
+	text-align: center;
+}
